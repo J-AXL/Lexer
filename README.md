@@ -29,7 +29,7 @@ WORD: "x",
 SEMI,
 RWORD: public,
 RWORD: void,
-WORD: "main"
+WORD: "main",
 LPAR,
 RPAR,
 LBRACE,
