@@ -123,7 +123,7 @@ LPAR,                   # (
 RPAR,                   # )
 SPEC_LPAR,              # ( (поставлен лексером)
 SPEC_RPAR,              # ) (поставлен лексером)
-LBRACE,                 # }
+LBRACE,                 # {
 RBRACE,                 # }
 LBRACKET,               # [
 RBRACKET,               # ]
