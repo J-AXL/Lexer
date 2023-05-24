@@ -161,7 +161,7 @@ SEMI
 #x = 2;
 ```
 ```py
-WORD: "THIS",
+WORD: "this",
 DOT,
 WORD: "x",
 EQUAL,
