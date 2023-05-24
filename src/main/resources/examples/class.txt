@@ -1,0 +1,10 @@
+public class Test;
+
+private int x;
+
+public void main()
+{
+    int y = 10;
+    #x = 54 + y;
+    Console.println(sqrt(#x));
+}
