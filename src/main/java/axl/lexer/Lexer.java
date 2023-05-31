@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import axl.logger.Logger;
 /**
  * User:Quark
  * Date: 24/05/2023
@@ -22,13 +23,17 @@ public class Lexer {
             ArrayList<String> tokens = splitJavaCode(code);
 
             // need method to printing { ENDFILE}
-            System.out.println("LEXER OUTPUT:");
-            System.out.println("{");
+
+            Logger.logger_install(null);
+            //Logger.print_logo_full();
+            Logger.set_title("LEXER");
+            //Logger.print_success("LEXER OUTPUT:");
+            Logger.print_warning("{");
             for (String token : tokens) {
-                System.out.println(token);
+                Logger.print_warning(token);
             }
-            System.out.println("ENDFILE");
-            System.out.println("}");
+            Logger.print_warning("ENDFILE");
+            Logger.print_warning("}");
 
         } catch (IOException e) {
             e.printStackTrace();
