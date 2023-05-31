@@ -1,4 +1,4 @@
-package axl.logger;
+package axl.lexer;
 
 import org.fusesource.jansi.Ansi;
 import org.fusesource.jansi.Ansi.Color;
